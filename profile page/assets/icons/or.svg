@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63" height="63" viewBox="0 0 63 63">
+  <defs>
+    <filter id="Oval" x="0" y="0" width="63" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#8386a3" flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1203" data-name="Group 1203" transform="translate(-927.5 -290.5)">
+    <g transform="matrix(1, 0, 0, 1, 927.5, 290.5)" filter="url(#Oval)">
+      <circle id="Oval-2" data-name="Oval" cx="16" cy="16" r="16" transform="translate(15.5 9.5)" fill="#fff" stroke="#e0e3e7" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <text id="OR" transform="translate(949 319)" fill="#5c5f64" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">OR</tspan></text>
+  </g>
+</svg>

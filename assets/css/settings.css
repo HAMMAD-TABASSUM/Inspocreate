@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu&family=Varela+Round&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.ubuntu {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.custom-container {
+  width: 1170px;
+  margin: auto;
+}
+
+.modal-width {
+  width: 970px;
+}
+
+.rgba {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.actives {
+  background-image: url("../icons/border.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 14px;
+}
+
+.actives span {
+  color: black !important;
+  font-weight: 500 !important;
+}
+
+.d-none {
+  display: none;
+}
+
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: orange;
+}
+
+.btn-file input[type="file"] {
+  filter: alpha(opacity=0);
+}
+
+#sortbox:checked ~ #sortboxmenu {
+  opacity: 1;
+}
+
+.avataar {
+  top: -82px;
+  left: 313px;
+}
+
+.cam {
+  left: 53%;
+  top: 18px;
+}
+
+.footer-color {
+  background-color: #faf6f7;
+}
+
+/* password metter */
+
+.indicator div{
+	position: relative;
+}
+
+.indicator div:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+
+.indicator div.active.weak:before{
+	background: #ff4757;
+}
+
+.indicator div.active.medium:before{
+	background: orange;
+}
+
+.indicator div.active.strong:before{
+	background: #23ad5c;
+}

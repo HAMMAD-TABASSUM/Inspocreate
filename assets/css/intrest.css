@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu&family=Varela+Round&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.ubuntu {
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.custom-container {
+    width: 1170px;
+    margin: auto;
+}
+
+.modal-width {
+    width: 970px;
+}
+
+.rgba {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.active {
+    background-image: url('../icons/border.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 14px;
+}
+
+.active span {
+    color: black !important;
+    font-weight: 500 !important;
+}
+
+.d-none {
+    display: none;
+}
+
+input:checked ~ .dot {
+    transform: translateX(100%);
+    background-color: orange;
+}
+
+.btn-file input[type=file] {
+    filter: alpha(opacity=0);
+}
+
+#sortbox:checked ~ #sortboxmenu {
+    opacity: 1;
+}
+
+
+aside input[type="checkbox"]:checked ~ span {
+    background-color: #a93a8b41;
+    border: 1px solid #A93A8C;
+}
+
+aside input[type="checkbox"]:checked ~ span .chack {
+    display: block;
+}
+
+.footer-color {
+    background-color: #FAF6F7;
+}
